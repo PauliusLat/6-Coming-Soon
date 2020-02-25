@@ -1,0 +1,20 @@
+body{
+}
+.container{
+
+}
+    header{
+        display: inline-block;
+        width: 800px;
+        background-image: url(../img/cs.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    section{
+
+    }
+
+    footer{
+
+    }
