@@ -1,4 +1,4 @@
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+<!-- ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) -->
 ![HitCount](http://hits.dwyl.io/PauliusLat/6-Coming-Soon.svg)
 
 # 6-Coming-Soon
