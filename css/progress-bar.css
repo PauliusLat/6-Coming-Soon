@@ -31,8 +31,44 @@
         }
             .progress-bar > .bar > .value{
                 display: inline-block;
-                background-color: blue;
-                width: 90%;
+                width: 100%;
                 height: 100%;
             }
+                .progress-bar > .bar > .value > .loading{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #03A9F5;
+
+                    animation-name: loadingas;
+                    animation-duration: 3s;
+                    animation-iteration-count: 2;
+                    animation-timing-function: linear;
+                    animation-delay: 1s;
+                    animation-direction: normal;
+                    animation-play-state: running;
+                    animation-fill-mode: forwards;                
+                
+                }
+                .progress-bar:hover > .bar > .value > .loading{
+                    animation-play-state: paused;
+
+                }
+
+
+
+@keyframes loadingas{
+    0% {
+       width: 0%; 
+       background-color: #03A9F5;
+    }
+    50% {
+        width: 50%;
+        background-color: blueviolet;
+    }
+    100% {
+        width: 100%;
+        background-color: cornflowerblue;
+    }
+}
 
